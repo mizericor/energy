@@ -1,15 +1,20 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 15/10/2018 10:08
+<<<<<<< HEAD
+  	Creation date: 13/03/2020 09:59
+=======
+  	Creation date: 16/10/2018 07:46
+>>>>>>> 92f6cd4f981bc2db342752717fad52eb84a3094a
   	*/
-  	
+
 @font-face {
   font-family: "Flaticon";
-  src: url("../fonts/flaticon/font/Flaticon.eot");
-  src: url("../fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
-       url("../fonts/flaticon/font/Flaticon.ttf") format("truetype"),
-       url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -17,31 +22,36 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
+    src: url("./Flaticon.svg#Flaticon") format("svg");
   }
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-gym:before { content: "\f100"; }
-.flaticon-running:before { content: "\f101"; }
-.flaticon-workout:before { content: "\f102"; }
-.flaticon-woman:before { content: "\f103"; }
-.flaticon-stationary-bike:before { content: "\f104"; }
-.flaticon-heart:before { content: "\f105"; }
-.flaticon-meditation:before { content: "\f106"; }
-.flaticon-ruler:before { content: "\f107"; }
-.flaticon-abs:before { content: "\f108"; }
-.flaticon-tools-and-utensils:before { content: "\f109"; }
+
+.flaticon-soldier:before { content: "\f100"; }
+.flaticon-launcher:before { content: "\f101"; }
+.flaticon-bullet:before { content: "\f102"; }
+.flaticon-knife:before { content: "\f103"; }
+.flaticon-tank:before { content: "\f104"; }
+.flaticon-army:before { content: "\f105"; }
+.flaticon-frequency:before { content: "\f106"; }
+.flaticon-atomic-bomb:before { content: "\f107"; }
+.flaticon-soldier-1:before { content: "\f108"; }
+.flaticon-miscellaneous:before { content: "\f109"; }
+.flaticon-miscellaneous-1:before { content: "\f10a"; }
+.flaticon-army-1:before { content: "\f10b"; }
+.flaticon-boots:before { content: "\f10c"; }
+.flaticon-kalashnikov:before { content: "\f10d"; }
+.flaticon-prison:before { content: "\f10e"; }
+.flaticon-grenade:before { content: "\f10f"; }
+.flaticon-grenade-1:before { content: "\f110"; }
+.flaticon-battle:before { content: "\f111"; }
+.flaticon-military:before { content: "\f112"; }
+.flaticon-fence:before { content: "\f113"; }
