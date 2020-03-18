@@ -1,20 +1,13 @@
 	/*
   	Flaticon icon font: Flaticon
-<<<<<<< HEAD
   	Creation date: 13/03/2020 09:59
-=======
-  	Creation date: 16/10/2018 07:46
->>>>>>> 92f6cd4f981bc2db342752717fad52eb84a3094a
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
-<<<<<<< HEAD
        url("./Flaticon.woff2") format("woff2"),
-=======
->>>>>>> 92f6cd4f981bc2db342752717fad52eb84a3094a
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -37,7 +30,6 @@ font-style: normal;
 margin-left: 20px;
 }
 
-<<<<<<< HEAD
 .flaticon-soldier:before { content: "\f100"; }
 .flaticon-launcher:before { content: "\f101"; }
 .flaticon-bullet:before { content: "\f102"; }
@@ -58,15 +50,3 @@ margin-left: 20px;
 .flaticon-battle:before { content: "\f111"; }
 .flaticon-military:before { content: "\f112"; }
 .flaticon-fence:before { content: "\f113"; }
-=======
-.flaticon-gym:before { content: "\f100"; }
-.flaticon-running:before { content: "\f101"; }
-.flaticon-workout:before { content: "\f102"; }
-.flaticon-woman:before { content: "\f103"; }
-.flaticon-stationary-bike:before { content: "\f104"; }
-.flaticon-heart:before { content: "\f105"; }
-.flaticon-meditation:before { content: "\f106"; }
-.flaticon-ruler:before { content: "\f107"; }
-.flaticon-abs:before { content: "\f108"; }
-.flaticon-tools-and-utensils:before { content: "\f109"; }
->>>>>>> 92f6cd4f981bc2db342752717fad52eb84a3094a

@@ -1,0 +1,20 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/user8839/energy
+- /bin/cp -R bootstrap $DEPLOYPATH
+- /bin/cp -R css $DEPLOYPATH
+- /bin/cp -R scss $DEPLOYPATH
+- /bin/cp -R js $DEPLOYPATH
+- /bin/cp -R images $DEPLOYPATH
+- /bin/cp -R fonts $DEPLOYPATH
+- /bin/cp about.html $DEPLOYPATH
+- /bin/cp blog-single.html $DEPLOYPATH
+- /bin/cp blog.html $DEPLOYPATH
+- /bin/cp classes.html $DEPLOYPATH
+- /bin/cp contact.html $DEPLOYPATH
+- /bin/cp index.html $DEPLOYPATH
+- /bin/cp index0.html $DEPLOYPATH
+- /bin/cp pricing.html $DEPLOYPATH
+- /bin/cp trainers.html $DEPLOYPATH
+- /bin/cp prepros-6.config $DEPLOYPATH
